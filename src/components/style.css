@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.four-column {
+  /* margin: 5rem; */
+  margin: 5rem 10rem 0 8rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+.pcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+  width: 100%;
+  height: max-content;
+  border: 1px solid rgb(233, 233, 233);
+  position: relative;
+}
+.pcard button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.pcard button:hover {
+  opacity: 0.7;
+}
+.price {
+  padding: 0;
+  margin: 0;
+  color: red;
+  font-size: 15px;
+}
+.image {
+  padding: 10%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+}
+h5.title {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-weight: bolder;
+  /* margin: 5px 5px; */
+  margin: 0;
+  padding: 0px 10px;
+  line-height: 1.5;
+  font-size: 0.7rem;
+}
+.link {
+  text-decoration: none;
+}
+.price {
+  padding: 0px 10px;
+  margin: 0;
+}
+.category {
+  padding: 0px 10px;
+  color: green;
+}
+.free-shipping {
+  text-transform: uppercase;
+  color: green;
+}
